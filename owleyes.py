@@ -5,8 +5,8 @@ import torch
 from torch.autograd import Function, Variable
 from PIL import Image,ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
-from network import Net  #不提供network
-from network import GradCam  #不提供network
+from network import Net  
+from network import GradCam  
 import torch.nn as nn
 import getdata
 import os
@@ -44,7 +44,7 @@ def parse_args():
 ALLOWED_APK_EXTENSIONS = ['apk']
 ALLOWED_IMAGE_EXTENSIONS = ['jpeg', 'jpg', 'png']
 
-model_dir = './model/4model.pth'  # 加载模型，不提供模型
+model_dir = './model/4model.pth' 
 
 def killing_robot(proc):
     proc.terminate()

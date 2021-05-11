@@ -1,0 +1,3 @@
+https://f-droid.org/en/packages/org.schabi.newpipe/
+https://f-droid.org/packages/com.gelakinetic.mtgfam/
+https://f-droid.org/en/packages/org.transdroid.search/
